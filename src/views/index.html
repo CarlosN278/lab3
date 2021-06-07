@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+
+    <%- include ('partials/head.html') %>
+</head>
+<body>
+
+    <%- include ('partials/navigation.html') %>
+
+    <div class="container" id="logo">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/pcnfinal.png" class="animated bounceIn" alt="PCN LOGO">
+            </div>
+        </header>    
+    </div>
+
+    <!--SECTION ONE-->
+    <div class="cointainer-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-sm-6">
+            <img src="/img/agricultura.jpg" alt="" class="agricultura">
+        </div>
+        
+        <div class="col-sm-6">
+            <h3>PCN, ¿Cual es nuestro objetivo?</h3>
+            <p>Proponemos un sitio web en donde cualquier productor en el territorio panameño, pueda promover sus propias tierras y productos, 
+                el productor podrá alojar en dicho sitio web la mercancía que tiene actualmente a la venta (legumbres, vegetales, carne Bovina, Porcina, 
+                Avícola; entre otros). A su vez también podrá publicar si dispone de alguna siembra, tierra o finca a la venta. El productor podrá publicar su precio, 
+                datos personales del sitio donde se ubica el cultivo, información del productor, fechas de producción y expiración; entre otros datos de usos prioritarios para su venta.<br> <br> 
+                Todo esto separado por secciones en el sitio web, así el consumidor podrá contactar al productor, hablar con ellos, consultar precios y esto con el fin de mejorar sus ventas. 
+                Así ya no se tendrá que mandar los productos a distancias lejanas (capital) para sus ventas, dando ventajas tanto al productor como al consumidor.</p>  
+        </div>
+    </div>
+    
+    </div>
+
+    <%- include ('partials/footer.html') %>
+</body>
+</html>
